@@ -1,0 +1,122 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/  # Directory containing Python 3 bytecode
+*.py[cod]     # Python bytecode, optimized bytecode, and DLL files
+*$py.class    # Jython bytecode
+
+# C extensions
+*.so          # Shared object library files
+
+# Distribution / packaging
+.Python       # Python virtual environments
+build/        # Directory for build outputs
+develop-eggs/ # Directory for eggs from 'setup.py develop'
+dist/         # Directory for distributions
+downloads/    # Directory for pip downloads
+eggs/         # Directory for eggs
+.eggs/        # Directory for eggs (hidden)
+lib/          # Directory for Python's 'lib' module
+lib64/        # Directory for Python's 'lib64' module
+parts/        # Directory for 'zc.buildout' parts
+sdist/        # Directory for source distributions
+var/          # Directory for 'zc.buildout' var
+wheels/       # Directory for wheels
+pip-wheel-metadata/ # Directory for pip wheel metadata
+share/python-wheels/ # Directory for shared Python wheels
+*.egg-info/   # Directory for Python egg metadata
+.installed.cfg # Configuration file for 'zc.buildout'
+*.egg         # Python egg distribution
+MANIFEST      # Manifest file for source distributions
+
+# PyInstaller
+*.manifest    # Manifest file for PyInstaller
+*.spec        # Specification file for PyInstaller
+
+# Installer logs
+pip-log.txt   # Log file for pip
+pip-delete-this-directory.txt # File created by pip when uninstalling
+
+# Unit test / coverage reports
+htmlcov/      # Directory for coverage HTML reports
+.tox/         # Directory for tox virtual environments
+.nox/         # Directory for nox virtual environments
+.coverage     # File for coverage report
+.coverage.*   # File for coverage report (hidden)
+.cache        # Directory for pytest cache
+nosetests.xml # File for nosetests report
+coverage.xml  # File for coverage XML report
+*.cover       # File for coverage report
+*.py,cover    # File for coverage report
+.hypothesis/  # Directory for Hypothesis test data
+.pytest_cache/ # Directory for pytest cache
+
+# Translations
+*.mo          # Compiled gettext file
+*.pot         # gettext template file
+
+# Django stuff:
+*.log         # Log file
+local_settings.py # Local settings file for Django
+db.sqlite3    # SQLite database for Django
+db.sqlite3-journal # SQLite journal file for Django
+
+# Flask stuff:
+instance/     # Directory for Flask instance
+.webassets-cache # Directory for Flask webassets cache
+
+# Scrapy stuff:
+.scrapy       # Directory for Scrapy data
+
+# Sphinx documentation
+docs/_build/  # Directory for Sphinx build outputs
+
+# PyBuilder
+target/       # Directory for PyBuilder outputs
+
+# Jupyter Notebook
+.ipynb_checkpoints # Directory for Jupyter notebook checkpoints
+
+# IPython
+profile_default/ # Directory for default IPython profile
+ipython_config.py # Configuration file for IPython
+
+# pyenv
+.python-version # Python version for pyenv
+
+# pipenv
+#Pipfile.lock  # Lock file for pipenv (uncomment if necessary)
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/ # Directory for PEP 582 package installations
+
+# Celery stuff
+celerybeat-schedule # Schedule file for Celery Beat
+celerybeat.pid # PID file for Celery Beat# SageMath parsed files
+*.sage.py     # Parsed file for SageMath
+
+# Environments
+.env          # Environment variables
+.venv         # Python virtual environment
+env/          # Directory for virtual environment
+venv/         # Directory for virtual environment
+ENV/          # Directory for virtual environment
+env.bak/      # Backup directory for virtual environment
+venv.bak/     # Backup directory for virtual environment
+
+# Spyder project settings
+.spyderproject # Project settings file for Spyder
+.spyproject   # Project settings file for Spyder
+
+# Rope project settings
+.ropeproject  # Project settings directory for Rope
+
+# mkdocs documentation
+/site         # Directory for mkdocs site
+
+# mypy
+.mypy_cache/  # Directory for mypy cache
+.dmypy.json   # JSON file for mypy daemon
+dmypy.json    # JSON file for mypy daemon
+
+# Pyre type checker
+.pyre/        # Directory for Pyre type checker
+
