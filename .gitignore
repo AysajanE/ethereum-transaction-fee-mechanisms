@@ -1,3 +1,5 @@
+# data files in data folder in the project root directory
+/data/
 # Byte-compiled / optimized / DLL files
 __pycache__/  # Directory containing Python 3 bytecode
 *.py[cod]     # Python bytecode, optimized bytecode, and DLL files
