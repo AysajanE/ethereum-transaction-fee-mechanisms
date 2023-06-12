@@ -18,13 +18,21 @@ def setup_web3(endpoint):
     """
     return Web3(Web3.HTTPProvider(endpoint))
 
-# Use Infura API endpoint
-infura_url = os.getenv("INFURA_MAINNET_URL")
+# # Use Infura API endpoint
+# infura_url = os.getenv("INFURA_MAINNET_URL")
 
-if not infura_url:
-    raise ValueError("INFURA_URL is not set in the environment variables")
+# if not infura_url:
+#     raise ValueError("INFURA_URL is not set in the environment variables")
 
-web3 = setup_web3(infura_url)
+# web3 = setup_web3(infura_url)
+
+# Use Ethereum node on local machine
+node_url = 'http://localhost:8545'
+web3 = setup_web3(node_url)
+
+# Check if the connection is successful
+if not web3.is_connected():
+    print("Failed to connect to the Ethereum node")
 
 def process_block(block_num):
     """
