@@ -31,30 +31,30 @@ if not web3.is_connected():
 MAX_WORKERS = 10  # Number of worker threads for concurrent execution.
 BUFFER_SIZE = 100000
 
-# # Trial run
-# block_ranges = [
-#     (12000000, 12000100),  # First run
-#     (12000101, 12000200),  # Second run
-#     (12000201, 12000300),  # Third run
-#     (12000301, 12000400),  # Fourth run
-#     # Add more ranges as needed
-# ]
+# Trial run
+block_ranges = [
+    (11794239, 11794300),  # First run
+    (11794301, 11794400),  # Second run
+    (11794401, 11794500),  # Third run
+    (11794501, 11794600),  # Fourth run
+    # Add more ranges as needed
+]
 
 # The block number at 2021-02-05 is 11794239
 # The block number at 2022-02-05 is 14143963
-block_ranges = [
-    (11794239, 12000000),  # First run
-    (12000001, 12250000),  # Second run
-    (12250001, 12500000),  # Third run
-    (12500001, 12750000),  # Fourth run
-    (12750001, 13000000),  # Fifth run
-    (13000001, 13250000),  # Sixth run
-    (13250001, 13500000),  # Seventh run
-    (13500001, 13750000),  # Eighth run
-    (13750001, 14000000),  # Ninth run
-    (14000001, 14143963),  # Tenth run
-    # Add more ranges as needed
-]
+# block_ranges = [
+#     (11794239, 12000000),  # First run
+#     (12000001, 12250000),  # Second run
+#     (12250001, 12500000),  # Third run
+#     (12500001, 12750000),  # Fourth run
+#     (12750001, 13000000),  # Fifth run
+#     (13000001, 13250000),  # Sixth run
+#     (13250001, 13500000),  # Seventh run
+#     (13500001, 13750000),  # Eighth run
+#     (13750001, 14000000),  # Ninth run
+#     (14000001, 14143963),  # Tenth run
+#     # Add more ranges as needed
+# ]
 
 
 # Manually set the current range index each time you run the script
