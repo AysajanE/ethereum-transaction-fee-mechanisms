@@ -77,6 +77,9 @@ target/       # Directory for PyBuilder outputs
 # Jupyter Notebook
 .ipynb_checkpoints # Directory for Jupyter notebook checkpoints
 **/.ipynb_checkpoints/ # All subdirectories for Jupyter notebook checkpoints
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+code/.ipynb_checkpoints/*
 
 # IPython
 profile_default/ # Directory for default IPython profile
